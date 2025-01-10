@@ -18,9 +18,12 @@ const HomeSectionFive = () => {
         >
           <div className="flex flex-col md:flex-row md:items-center justify-between mb-10">
             <div className="flex flex-col gap-2">
-              <span className="text-[17px] md:text-[30px] text-start text-white">
+              {/* <span className="text-[17px] md:text-[30px] text-start text-white">
                 Utility
-              </span>
+              </span> */}
+              <h1 className=" text-white text-[30px] md:text-[40px] ">
+                Utility
+              </h1>
               <span className="">
                 Firefly AI serves as a versatile financial tool that caters to
                 the needs of both retail and institutional investors. The key
@@ -109,7 +112,7 @@ const HomeSectionFive = () => {
           </div>
         </div>
         <div
-          className="grid grid-cols-1 md:grid-cols-2 items-center gap-28 md:gap-20 mt-24"
+          className="grid grid-cols-1 md:grid-cols-2 items-center gap-28 md:gap-20 mt-20"
           id="roadmap"
         >
           <div className="col-span-1 flex flex-col gap-8 md:gap-10">

@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const HomeSectionFour = () => {
   return (
     <div className="h-full w-full text-white" id="design">
-      <div className="container px-8 md:px-14 lg:px-0 py-40 md:py-28">
+      <div className="container px-8 md:px-14 lg:px-0 py-28 md:py-28">
         <div className="w-full md:w-[70%] lg:w-[60%] mx-auto flex flex-col items-center gap-6 mb-16">
           <p className="rounded-full px-8 py-4 bg-[#1B1B1D] text-[#999999] font-semibold">
             Implementation
