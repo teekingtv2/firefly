@@ -138,7 +138,7 @@ const HomeSectionFive = () => {
           </div>
           <div className="col-span-1 w-full flex flex-col gap-7">
             <img
-              src="/assets/images/robot-2.webp"
+              src="/assets/images/robot-3.jpg"
               alt=""
               className="border-[2px] border-fireflyYellow rounded-md dancingSlide"
               style={{ boxShadow: "4px 3px 10px #f7a600" }}
