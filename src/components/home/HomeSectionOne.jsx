@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom";
-import vid from "../../../public/assets/videos/play.webm";
 import { FaArrowCircleRight } from "react-icons/fa";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 

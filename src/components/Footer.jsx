@@ -13,22 +13,16 @@ const Footer = () => {
         </div>
         <div className="col-span-2 flex gap-2 justify-end">
           <Link
-            to="https://x.com/"
-            className="rounded-full shadow-md shadow-fireflyDarkGrey p-2 lg:p-3 cursor-pointer hover:scale-105 ease-in duration-300"
-          >
-            <FaTelegram />
-          </Link>
-          <Link
-            to="https://x.com/"
+            to="http://x.com/Agentfirefly_AI"
             className="rounded-full shadow-md shadow-fireflyDarkGrey p-2 lg:p-3 cursor-pointer hover:scale-105 ease-in duration-300"
           >
             <FaTwitter />
           </Link>
           <Link
-            to="https://x.com/"
+            to="http://t.me/Agentfirefly_AI"
             className="rounded-full shadow-md shadow-fireflyDarkGrey p-2 lg:p-3 cursor-pointer hover:scale-105 ease-in duration-300"
           >
-            <FaDiscord />
+            <FaTelegram />
           </Link>
         </div>
       </div>

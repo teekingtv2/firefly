@@ -3,6 +3,8 @@ import {
   FaArrowCircleDown,
   FaArrowCircleRight,
   FaInstagram,
+  FaTelegram,
+  FaTwitter,
   FaYoutube,
 } from "react-icons/fa";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
@@ -93,7 +95,7 @@ const NavBar = () => {
               href="#features"
               className="flex btnn1 py-[8px] px-4 text-[12px] font-medium justify-center items-center ease-in duration-300"
             >
-              <span className="mr-2">Firefly AI Agent</span>
+              <span className="mr-2">Project Features</span>
               <span>
                 <FaArrowCircleRight />
               </span>
@@ -169,25 +171,18 @@ const NavBar = () => {
                 </p>
                 <div className="flex items-center justify-center gap-5 my-4 w-full sm:w-[80%] text-gray-200">
                   <Link
-                    to="https://instagram.com/"
+                    to="http://x.com/Agentfirefly_AI"
                     className="rounded-full shadow-md shadow-fireflyYellow p-3 cursor-pointer hover:scale-105 ease-in duration-300"
                     target="_blank"
                   >
-                    <FaInstagram />
+                    <FaTwitter />
                   </Link>
                   <Link
-                    to="https://youtube.com/@"
+                    to="http://t.me/Agentfirefly_AI"
                     className="rounded-full shadow-md shadow-fireflyYellow p-3 cursor-pointer hover:scale-105 ease-in duration-300"
                     target="_blank"
                   >
-                    <FaYoutube />
-                  </Link>
-                  <Link
-                    to="https://youtube.com/@"
-                    className="rounded-full shadow-md shadow-fireflyYellow p-3 cursor-pointer hover:scale-105 ease-in duration-300"
-                    target="_blank"
-                  >
-                    <FaYoutube />
+                    <FaTelegram />
                   </Link>
                 </div>
               </div>
