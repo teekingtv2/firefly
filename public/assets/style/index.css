@@ -96,16 +96,24 @@ html {
 }
 
 .btnn1 {
-  @apply bg-[#00DBC2] text-black rounded-lg hover:bg-[#12DEC6] hover:scale-105 ease-in duration-300 cursor-pointer;
-  box-shadow: 4px 4px 7px #032e2a;
+  @apply bg-fireflyYellow text-black rounded-lg hover:bg-fireflyYellowFaded hover:scale-105 ease-in duration-300 cursor-pointer;
+  box-shadow: 3px 3px 5px #68460c76;
 }
 .btnn2 {
-  @apply bg-[#00DBC2] text-black rounded-sm hover:bg-[#12DEC6] hover:scale-105 ease-in duration-300 cursor-pointer;
-  box-shadow: 4px 4px 7px #032e2a;
+  @apply bg-fireflyYellow text-black rounded-sm hover:bg-[#12DEC6] hover:scale-105 ease-in duration-300 cursor-pointer;
+  box-shadow: 4px 4px 7px #68460c76;
 }
 .btnn1-disabled {
   @apply bg-[#032e2a] text-black rounded-lg hover:bg-[#12DEC6] hover:scale-105 ease-in duration-300 cursor-pointer;
-  box-shadow: 4px 4px 7px #032e2a;
+  box-shadow: 4px 4px 7px #68460c76;
+}
+.feature-card {
+  @apply p-4 lg:p-5 rounded-lg cursor-pointer flex gap-4 lg:gap-7 border-[1px] border-fireflyYellow;
+  /* box-shadow: 4px 3px 10px #00dbc2; */
+}
+.gradient-box1 {
+  @apply col-span-1 flex flex-col justify-center items-center gap-4 border-[1px] border-fireflyYellow p-4 rounded-md;
+  box-shadow: 4px 3px 10px #f7a600;
 }
 
 .banner-vd {

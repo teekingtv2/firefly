@@ -20,12 +20,12 @@ const Head = ({ pageTitle }) => {
       <meta name="author" content="" />
       <link
         rel="shortcut icon"
-        href="/assets/images/favicon.png"
+        href="/assets/images/logo.png"
         type="image/x-icon"
       />
-      <meta name="theme-color" content="#040204" />
-      <meta name="msapplication-navbutton-color" content="#040204"></meta>
-      <meta content="#040204" name="msapplication-navbutton-color" />
+      <meta name="theme-color" content="#F7A600" />
+      <meta name="msapplication-navbutton-color" content="#F7A600"></meta>
+      <meta content="#F7A600" name="msapplication-navbutton-color" />
       <meta content="yes" name="apple-mobile-web-app-capable" />
       <meta
         content="black-translucent"
