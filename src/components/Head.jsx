@@ -9,13 +9,11 @@ const Head = ({ pageTitle }) => {
       </title>
       <meta
         name="description"
-        content={`${
-          import.meta.env.VITE_APP_NAME
-        } is a cryptocurrency investment trading platform that provides high Returns on Invesments for investors.`}
+        content={`Welcome to Firefly AI, the next-generation investment platform powered by cutting-edge artificial intelligence and machine learning.`}
       />
       <meta
         name="keywords"
-        content="Crypto investments, Cryptocurrency trading groups, trading groups, premium trading groups"
+        content="FireFly, AI Agent, AI, Artificial Intelligence, Machine Learning, FireFly AI"
       />
       <meta name="author" content="" />
       <link
